@@ -130,4 +130,4 @@ else:
 
 if st.button("➡️ Question suivante"):
     st.session_state.index_courant += 1
-    st.experimental_rerun()
+    st.rerun()
